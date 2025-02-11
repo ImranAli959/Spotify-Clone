@@ -43,8 +43,9 @@ nav ul li{
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
-    padding: 34;
+    padding: 34px;
     background-image: url('girl.jpg');
+    background-size: cover;
 
 }
 
