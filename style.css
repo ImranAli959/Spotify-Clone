@@ -8,6 +8,7 @@ body {
 }
 nav{
     font-family: 'ubuntu', sans-serif;
+    
 }
 nav ul{
     display: flex;
@@ -16,10 +17,12 @@ nav ul{
     height: 80px;
     background-color: black;
     color: white;
+    
 }
 
 nav ul li{
     padding: 0 12px;
+   
     }
 
 .brand img{
@@ -51,7 +54,7 @@ nav ul li{
 
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 100px;
     background-color: black;
     color: white;
     bottom: 0;
@@ -72,11 +75,16 @@ nav ul li{
 
 #myProgressBar{
     width:80vw;
+    cursor: pointer;
     
 }
 
+#songItemContainer{
+    margin-top: 74;
+}
+
 .songItem{
-   height: 50;
+   height: 50px;
    display: flex;
    background-color: white;
    width: 80%;
@@ -90,7 +98,27 @@ nav ul li{
 }
 
 .songItem img{
-    width: 43px;
+    width: 50px;
     margin: 0 23px;
+    border-radius: 34px;
 
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    font-family: 'varela Round', sans-serif;
 }
